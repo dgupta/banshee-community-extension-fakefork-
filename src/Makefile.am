@@ -1,4 +1,5 @@
 SUBDIRS = \
+    Bansheenect \
 	AlarmClock \
 	Ampache \
 	AppIndicator \

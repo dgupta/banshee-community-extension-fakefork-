@@ -132,6 +132,7 @@ help/Makefile
 po/Makefile.in
 
 src/Makefile
+src/Bansheenect/Makefile
 src/Karaoke/Makefile
 src/AssemblyInfo.cs
 
@@ -198,6 +199,7 @@ ${PACKAGE}-${VERSION}
     User Help:           ${enable_user_help} (requires gnome-doc-utils >= 0.17.3)
 
   Extensions:
+    Bansheenect:         yes
     Alarm Clock:           ${enable_AlarmClock}
     Ampache:               ${enable_Ampache}
     AppIndicator:          ${enable_AppIndicator}
